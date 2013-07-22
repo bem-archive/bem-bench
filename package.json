@@ -1,0 +1,39 @@
+{
+  "name": "bem-bench",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "Tikvach Alexander <unlok@yandex-team.ru> (http://github.com/unlok)",
+  "contributors": [
+    "Tikvach Alexander <unlok@yandex-team.ru> (http://github.com/unlok)",
+    "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)"
+  ],
+  "main": "lib/coa.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/bem-bench"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "bin": {
+    "bem-bench": "bin/bem-bench"
+  },
+  "dependencies": {
+    "q": "*",
+    "coa": "~0.4.0",
+    "colors": "~0.6.0-1",
+    "cli-table": "~0.2.0",
+    "benchmark": "~1.0.0",
+    "inherit": "~2.0.0"
+  },
+  "devDependencies": {
+    "mocha-as-promised": "*",
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "bem": ">= 1.0.0-alpha1 <= 2.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

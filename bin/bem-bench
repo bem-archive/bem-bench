@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+'use strict'
+
+require('coa')
+    .Cmd()
+    .name(require('path').basename(process.argv[1]))
+    .apply(require('../lib/coa'))
+    .completable()
+    .run();
