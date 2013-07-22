@@ -1,6 +1,6 @@
 {
   "name": "bem-bench",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "homepage": "",
   "author": "Tikvach Alexander <unlok@yandex-team.ru> (http://github.com/unlok)",
   "contributors": [
@@ -8,6 +8,9 @@
     "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)"
   ],
   "main": "lib/coa.js",
+  "bugs": {
+    "url": "http://github.com/bem/bem-bench/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/bem/bem-bench"
@@ -35,5 +38,11 @@
   },
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/bem/bem-bench/raw/master/LICENSE"
+    }
+  ]
 }
