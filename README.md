@@ -1,1 +1,1 @@
-Regression testing. Allows testing BEMHTML and BH templates between revision.
+![Документация (RU)](https://raw.github.com/bem/bem-bench/dev/docs/bem-bench.ru.jpg)
