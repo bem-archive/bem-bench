@@ -7,7 +7,6 @@
     "Tikvach Alexander <unlok@yandex-team.ru> (http://github.com/unlok)",
     "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)"
   ],
-  "main": "lib/coa.js",
   "bugs": {
     "url": "http://github.com/bem/bem-bench/issues"
   },

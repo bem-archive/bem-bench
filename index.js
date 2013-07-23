@@ -1,1 +1,1 @@
-module.exports = require(process.env.{APP_ENV}_COVER? './lib-cov' : './lib');
+module.exports = require(process.env.BEM_BENCH_COVER? './lib-cov' : './lib' + '/bench.js');
