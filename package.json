@@ -21,6 +21,7 @@
     "bem-bench": "bin/bem-bench"
   },
   "dependencies": {
+    "bem": "1.0.0-alpha3",
     "q": "*",
     "coa": "~0.4.0",
     "colors": "~0.6.0-1",
