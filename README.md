@@ -113,3 +113,22 @@
         mix-input-button/
             mix-input-button.bemjson.js
     ```
+    
+#### Кастомизация сборки
+
+Перед сборкой каждой ревизии осуществляется поиск скрипта в секции `bem-bench-build` в `package.json` на уровне проекта.
+
+```javascript
+  "scripts": {
+    "bem-bench-build": "npm install && bem make ..."
+  }
+```
+Если скрипт не будет найден, будет выполнена сборка по умолчанию: `npm install && ./node_modules/.bin/bem make ...`
+
+Если сборку необходимо выполнять по конкретным целям, определенным через опцию **-b**, то необходимо добавить параметр **$targets** в строку скрипта, тогда все перечисленые цели будут записаны в этот параметр.
+
+```javascript
+  "scripts": {
+    "bem-bench-build": "npm install && bem make $targets"
+  }
+```
